@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Image Cycler</title>
+		<link rel="stylesheet" type="text/css" href=" https://raw.githubusercontent.com/lucatrincauk/test/master/img-replacement.css
+">
+	</head>
+	<body onload="loadImages()">
+		<h2 style="padding-left: 10px;">Gallery</h2>
+		<p style="text-align: center;">
+			<img id="largeImg" src="images/img1-lg.jpg" alt="Large image" />
+			<div style="height: 20px;">
+				<button type="button" style="float: left;" onclick="prevImage()">prev</button>
+				<button type="button" style="float: right;" onclick="nextImage()">next</button>
+			</div>
+		</p>
+		<p class="thumbs" style="text-align: center;"></p>
+		<script type="text/javascript" src="js/gallery.js"></script>
+  </body>
+</html>
